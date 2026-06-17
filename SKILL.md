@@ -1,14 +1,28 @@
 ---
 name: dtc-static-ad-engine
 description: End-to-end engine for DTC static ad creatives ,  writes scroll-stopping headlines (Schwartz awareness × sophistication × LF8 desire × formula matrix) AND directs the catchy static visuals (110-concept library + mix engine + hard design rules). Use when the task is: writing ad headlines, building static ad concepts/creatives, an advertorial-driven Meta image ad, or "generate statics / give me concepts". ALSO handles winner VARIATIONS (PART 3): when asked to „направи вариация / вариирай / multiply this winner", diagnose the ONE winner element (usually the visual), lock it, and interpolate concepts around it , never re-guess the win. Worked example = Eterna Drop (botox-alternative, women 50+), but a CONFIG block adapts it to ANY brand. BRAND ROUTING: for Eterna this IS the whole system (headlines + visual matrix as ONE unit); other brands (e.g. Knigi/books) have separate rules. If asked to make creatives with no brand named, ask which brand first; if Eterna, run this engine end-to-end.
-triggers: ["статични", "статични реклами", "static ad", "static creatives", "генерирай статични", "дай концепции", "хедлайн", "headline", "ad creative", "advertorial creative", "Meta image ad", "botox", "scroll-stopping ad", "креативи", "creatives", "правим креативи", "make creatives", "креативи за Eterna", "статични Eterna", "Eterna creatives", "Eterna", "вариация", "вариации", "направи вариация", "направи вариации", "вариации на", "вариирай", "вари този уинър", "вариация на уинър", "уинър вариация", "variation", "variations", "vary this winner", "multiply", "мултиплай", "make variations"]
+triggers: ["статични", "статични реклами", "static ad", "static creatives", "генерирай статични", "дай концепции", "хедлайн", "headline", "ad creative", "advertorial creative", "Meta image ad", "botox", "scroll-stopping ad", "креативи", "creatives", "правим креативи", "make creatives", "креативи за Eterna", "статични Eterna", "Eterna creatives", "Eterna", "вариация", "вариации", "направи вариация", "направи вариации", "вариации на", "вариирай", "вари този уинър", "вариация на уинър", "уинър вариация", "variation", "variations", "vary this winner", "multiply", "мултиплай", "make variations", "ingredient level", "ingredient headlines", "ingredient level based headlines", "на ниво съставка", "хедлайни на ниво съставка", "съставка"]
 scope: user
 ---
 
 # DTC STATIC AD ENGINE
 Two engines in one: **(1) HEADLINES** and **(2) STATIC VISUALS**. Distilled from a long real client cycle. Follow it literally; the rules are scar tissue from things that failed.
 
+**⛔ OUTPUT GATE (GLOBAL , every angle & direction: ingredient, botox-angle, advertorial, unaware, any brand) , run on EVERY headline/creative BEFORE showing it; PRINT a ✓/✗ verdict beside each line. No verdict = not gated = fail. Any ✗ = rewrite before showing. Work ONE line at a time.** Checks: 1) HOOK not statement (opens a loop / contra / unknown) · 2) every verb literally fits, nothing in quotes · 3) outcome visible via a concrete image (a loss/desire, never an accidental win) · 4) reads in one pass · 5) right words (no banned; rotate synonym + facial-tell; never fight your own product) · 6) BG gate („quotes" · 0 em dash · no final period · real/flagged numbers · 0 Latin) · 7) (visual) concept+pattern-interrupt, not a template macro/diagram/before-after · headline 30-40% · contrast not merge · rotated text-device · subject-cue per angle.
+
+**📂 ON ACTIVATION , ALWAYS LOAD THE FOUNDATION FIRST. These files are BUNDLED in this skill folder and are the FULL rules; THIS skill body is only a SUMMARY. On any conflict, the FOUNDATION + brand canon WIN. Read every time:**
+- `./HEADLINE-ENGINE.md` , headline engine + matrices
+- `./CREATIVE-DESIGN-RULES.md` , visual design bible
+- `./ETERNA-VISUAL-CONCEPT-LIBRARY.md` , visual matrix + concept library
+- `./AWARENESS-STAGES.md`
+- `./ETERNA-HEADLINE-SYSTEM.md` + `./ETERNA-HEADLINE-MATRIX-8x5x5.md` , Eterna canon
+- `./INGREDIENT-LEVEL-HEADLINES.md` , ONLY for ingredient-level tasks (a SUBSET, not global)
+Apply ALL of these (not just this summary) on every Eterna headline/creative. (These bundled copies are the shipped snapshot; the working source lives in ~/Desktop/Statics , re-sync before each push.)
+
 **BRAND ROUTING (read first):** when the task is making ad creatives/headlines and the brand is **Eterna**, THIS skill is the whole system end-to-end (headlines + visual matrix = one unit). Other brands (e.g. Knigi/books) have their OWN separate headline + static rules , do NOT use this for them. If asked to „make creatives" with no brand named, ASK which brand first; if Eterna → run this engine.
+
+**DIRECTIONS (sub-modes that INHERIT all main rules + add their own, applied ON TOP):**
+- **Ingredient-Level Based Headlines** → `~/Desktop/Statics/Eterna/INGREDIENT-LEVEL-HEADLINES.md` (product-page, ingredient-led; styles = curiosity-gap / contra-intuitive; HARD literal-verb gate; outcome woven not stapled). When the task is ingredient-level headlines, READ that file and apply its rules on top of this engine. (Living file , the user models more rules into it over time.)
 
 ## 0. CONFIG (fill per brand before using)
 - PRODUCT: e.g. Eterna Drop ,  botox-alternative cream
@@ -76,7 +90,7 @@ Named culprit · consequence (social/emotional) · daily trigger · instant rewa
 NOT on every creative. Add a CTA only when the headline leaves a genuine OPEN LOOP it resolves. A completed thought needs none. The CTA must be SPECIFIC (point at a concrete thing), never vague.
 
 ## 1.11 Kill-tests (any NO = rewrite)
-1 Gets it in 1 sec without the lander? 2 Concrete picture (drawable)? 3 Two halves connect + landing punch? 4 Every word the right word? 5 Tension matches awareness? 6 Ultra-specific? 7 First half clear & convincing alone?
+1 Gets it in 1 sec without the lander? 2 Concrete picture (drawable)? 3 Two halves connect + landing punch? 4 Every word the right word? 5 Tension matches awareness? 6 Ultra-specific? 7 First half clear & convincing alone? 8 Does EVERY verb literally fit its noun (no metaphor-in-quotes , no „catch a wrinkle"/„the forehead learns")? 9 Does it open a curiosity loop / say something unknown or contra-intuitive, not just state a flat fact?
 
 ## 1.12 Spread & dedup at the IDEA level
 Distribute by DESIRE first; rotate FORM (story/question/number/secret/reframe/contrast/lived-moment); max 2 per distinct idea; real spread, no flat wall.
@@ -102,7 +116,7 @@ Scroll-stopping + the headline catches. The catch comes from the CONCEPT + desig
 plain STOCK PORTRAIT + text band (dumbest format) · morbid/gross renders (death-mask & tombstone busts, melting-wax busts, raw-meat/muscle macro, skulls, blank creepy masks) · cowboy/wanted-poster · aged/sepia/yellow paper · native/UGC candid · claymation/kawaii/childish · isometric mini-diorama w/ tiny text · „happy-scene with no product link" (e.g. happy grandma, no botox tell) · mid-century happy-woman · abstract disconnected symbols (slot machine, keys, scales, central clock) · product/bottle „premium commerce" shots (use a real product template only when product is wanted) · text-only-boring · the red-tag+gradient on EVERY creative (it's ONE option, rotate).
 
 ## 2.4 VISUAL CONCEPT LIBRARY ,  110 concepts, 10 families (the X-axis)
-Full list in the bundled `VISUAL-CONCEPT-LIBRARY.md`. Families:
+Full list in the bundled `ETERNA-VISUAL-CONCEPT-LIBRARY.md`. Families:
 A Editorial/report (НОВ ДОКЛАД, magazine cover, news-clipping…) · B Infographic/diagram (anatomy callout + red-X, skin cross-section, timeline, cost graph, comparison table…) · C Notebook/hand-drawn explainer (clean paper) · D Pop-art/comic/halftone · E Typographic/text-as-hero (+ small motif) · F Conceptual illustration (split-face, torn portrait, surreal mirror/mask, paper-cut, woodcut, charcoal, gouache, line-art…) · G Photo-conceptual (a person INSIDE a scene: before/after diptych, two-women, dinner, reunion, mirror moment, clinic chair, grandma+child…) · H Clean 3D/render (split face, skin macro, 3D type ,  never morbid) · I Object/scene metaphor (receipts-as-car, treadmill cycle, one-way road, dam/flood, two-paths…) · J Authority/proof (expert quote, reviews graphic, study chart, before/after grid).
 
 ## 2.4a THE VISUAL MATRIX (the visual twin of the headline matrix , this is what makes EVERY creative look different by construction)
