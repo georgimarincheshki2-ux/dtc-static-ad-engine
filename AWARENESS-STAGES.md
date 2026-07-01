@@ -9,11 +9,11 @@
 
 ## 0. THE TWO HARD LOCKS (read first — these are the C001 fixes, non-negotiable)
 
-### LOCK A — VOICE: THIRD PERSON ALWAYS FOR ETERNA. NO „ти", NO „аз".
-STYLE-CONCEPT.md wins over destination. There is NO "advertorial → warm 2nd person" exception anymore. That exception caused the C001 voice oscillation (#1 „те състаряват", #5 „чуваш", #6 „Питай", #7 „Чувстваш се" mixed with clean 3rd person). Every headline in every batch, every destination, every state: closed thought, third person, setup+punch.
-- WRONG: „Не дълбоките бръчки **те** състаряват"
-- RIGHT: „Дълбоките бръчки не състаряват най-много. Състаряват онези, които се появяват само при усмивка."
-One voice per batch is automatically satisfied because the voice is always the same. Any 2nd-person verb form, imperative („Питай", „Помниш ли") or „ти/те/се усмихнеш"-style direct address = automatic rewrite.
+### LOCK A — ⚠ SUPERSEDED 2026-07-02 (Жоро). Гласът СЛЕДВА ФОРМАТА — канонът е в ETERNA-HEADLINE-SYSTEM §9.
+Новото правило: по подразбиране **2-ро лице** (одобрената клиентска банка е такава) · confession/testimonial → **1-во лице** · наблюдение/bandwagon/authority → **3-то лице**. Старият текст („3-то лице винаги") се пази само като исторически запис на C001 провала, чиято ИСТИНСКА поука остава в сила: **не смесвай гласове в един ред и не осцилирай произволно в рамките на един формат** — гласът е съзнателен избор per хедлайн, обвързан с формата, не случайност.
+- Пример 3-то лице (наблюдение): „Дълбоките бръчки не състаряват най-много. Състаряват онези, които се появяват само при усмивка."
+- Пример 2-ро лице (одобрен от клиента): „Спреш ли иглата за месец, бръчките се връщат по-дълбоки"
+- Пример 1-во лице (confession, продукция 06-26): „Похарчих 600 евро, за да изглеждам не по-млада, а изненадана"
 
 ### LOCK B — URGENT IS OUT OF SCORING FOR COLD STATES (S5, S4) AND FLOORED FOR S3.
 The 4U "Urgent" criterion was benching the strongest cold hooks (C001 held #9/#10/#11 — the best in the batch — purely because Urgent was off). Native advertorial cold traffic does NOT want hard urgency (Doc 07 §1.3 U#2 warns against false urgency). So:
@@ -109,18 +109,20 @@ Tag each headline [Identity] / [Mechanism] / [Authority]. Batch hits ~40% Identi
 
 ### Gate 2 — Account rubric: Pattern Interrupt / Emotional Resonance / Product Inevitability, /15, **kill < 11**.
 
+> ⚠ 2026-07-02 (Жоро): Gate 1 и Gate 2 са ПОМОЩНИ, не летва — WINNERS-FEEDBACK.md е празен и числата нямат реална калибровка (а половината одобрени от клиента редове не биха ги минали). ЛЕТВАТА = одобрената банка (ETERNA-HEADLINE-SYSTEM §13) + kill-тестовете (§11). Guard 1 (SPREAD) и Guard 2 (IDEA-DEDUP) остават в пълна сила — те ловят реални провали. Числата стават решаващи чак при реални данни от акаунта.
+
 ### GUARD 1 — SPREAD CHECK (anti-gaming, new):
 If the WHOLE batch lands within 2 points of the cut line on either gate (e.g. everything at 25/40 and 11-12/15), the batch was written to the test, not to the woman. **Reject and regenerate.** A real batch has spread: some 30s+, some kills. A flat wall at the floor = gamed = automatic reject.
 
 ### GUARD 2 — IDEA-DEDUP (not text-dedup, new):
 "Zero duplicate text" is not enough. Check duplicate IDEA. C001 shipped #1/#2/#3 all = surface-vs-depth mechanism (3 ideas wearing different shirts). Max 2 headlines per distinct idea per batch. If 3+ share a concept, keep the best and regenerate the rest on a different angle.
 
-Data override: when WINNERS-FEEDBACK.md contradicts a score, the data wins (recalibrate, don't argue).
+Data override: when WINNERS-FEEDBACK.md contradicts a score, the data wins (recalibrate, don't argue). FRESHNESS (2026-07-02): only a FRESH snapshot counts (pull ≤14 days old, period-based). Stale winners are history , inspiration allowed, blind replication forbidden; „what's winning" ALWAYS triggers a new Meta pull for a recent window.
 
 ---
 
 ## 8. FORCED MECHANICS (every headline)
-1. Tags: [State#][Archetype] + Doc 07 formula# + SWIPE# modeled. No improvised forms (no swipe → STOP and ask).
+1. Tags: [State#][Archetype] + Doc 07 formula#. SWIPE-LIBRARY е МЕНЮ за форми (модел при нужда), НЕ задължителна бюрокрация — цитирането на Sxxx и „no swipe → STOP" отпадат (2026-07-02). Нова силна форма, която работи, се ДОБАВЯ в библиотеката, вместо да се спира писането.
 2. 3rd person, closed thought (Lock A). Setup+punch. No metaphors. No „аз/ти".
 3. Desire-first (Schwartz). Enemy/jargon at S4/S5 → rewrite.
 4. Sophistication: no naked claims at Stage 3-4; mechanism or identity leads.
